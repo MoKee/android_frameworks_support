@@ -1,4 +1,4 @@
-package org.cyanogenmod.support.ui;
+package org.mokee.support.ui;
 
 import java.util.ArrayList;
 
@@ -15,24 +15,24 @@ public class LiveFolder {
     public static final class Constants {
 
         public static final String CREATE_LIVE_FOLDER =
-                "cyanogenmod.intent.action.CREATE_LIVE_FOLDER";
+                "mokee.intent.action.CREATE_LIVE_FOLDER";
         public static final String UPDATE_LIVE_FOLDER =
-                "cyanogenmod.intent.action.UPDATE_LIVE_FOLDER";
+                "mokee.intent.action.UPDATE_LIVE_FOLDER";
         public static final String LIVE_FOLDER_UPDATES =
-                "cyanogenmod.intent.action.LIVE_FOLDER_UPDATES";
+                "mokee.intent.action.LIVE_FOLDER_UPDATES";
 
         public static final String FOLDER_UPDATE_TYPE_EXTRA = "update_type";
 
         public static final String NEW_FOLDER_CREATED =
-                "cyanogenmod.intent.action.NEW_LIVE_FOLDER_CREATED";
+                "mokee.intent.action.NEW_LIVE_FOLDER_CREATED";
         public static final String EXISTING_FOLDERS_CREATED =
-                "cyanogenmod.intent.action.EXISTING_LIVE_FOLDERS_CREATED";
+                "mokee.intent.action.EXISTING_LIVE_FOLDERS_CREATED";
         public static final String FOLDER_DELETED =
-                "cyanogenmod.intent.action.LIVE_FOLDER_DELETED";
+                "mokee.intent.action.LIVE_FOLDER_DELETED";
         public static final String FOLDER_ITEM_SELECTED =
-                "cyanogenmod.intent.action.LIVE_FOLDER_ITEM_SELECTED";
+                "mokee.intent.action.LIVE_FOLDER_ITEM_SELECTED";
         public static final String FOLDER_ITEM_REMOVED =
-                "cyanogenmod.intent.action.LIVE_FOLDER_ITEM_REMOVED";
+                "mokee.intent.action.LIVE_FOLDER_ITEM_REMOVED";
 
         public static final String FOLDER_RECEIVER_EXTRA = "folder_receiver";
         public static final String FOLDER_TITLE_EXTRA = "folder_title";
@@ -46,7 +46,7 @@ public class LiveFolder {
         public static final String FOLDER_UPDATE_ALL = "update_all";
 
         private static final String LAUNCHER_PERMISSION =
-                "com.cyanogenmod.trebuchet.permission.MANAGE_LIVE_FOLDERS";
+                "com.mokee.launcher.permission.MANAGE_LIVE_FOLDERS";
     }
 
     /**
